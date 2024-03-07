@@ -16,3 +16,5 @@ set.seed(10)
 base_pour_insee <- base_2015_16[sample(nrow(base_2015_16), 100), ]
 
 write_excel_csv2(base_pour_insee, file="echantillon_bdd_enpa_insee.csv")
+
+print()
